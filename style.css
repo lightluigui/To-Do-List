@@ -1,24 +1,54 @@
 body{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.753), rgb(54, 54, 54));
 }
-#lista{
-    background-color: aliceblue;
-    width: 400px; 
-    margin: 0 auto;
+#coluna1{
+    width: fit-content; 
+    display: inline-block;
     border-radius: 10px;
+    padding-left: 25rem;
+}
+#coluna2{
+    width: fit-content; 
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10rem;
+}
+#coluna3{
+    width: fit-content; 
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10rem;
 }
 header{
     text-align: center;
     font-size: 35px;
+    background-color: aliceblue;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 #segunda{
-    background-color: rgba(131, 8, 247, 0.247);
+    background-color: rgb(205, 164, 243);
     max-width: fit-content;
-    margin: 0 auto;
+    border-radius: 5px;
+    
 }
 #terça{
-    background-color: rgba(8, 32, 247, 0.247);
+    background-color: rgb(145, 155, 248);
     max-width: fit-content;
-    margin: 0 auto;
+    border-radius: 5px;
 }
+#quarta{
+    background-color: rgb(248, 142, 252);
+    max-width: fit-content;
+    border-radius: 5px;
+}
+input[type="checkbox"]
+{
+    width: 2em;
+    height: 2rem;
+    accent-color: green; 
+}
+
+  
