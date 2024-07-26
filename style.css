@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.753), rgb(54, 54, 54));
+}
+#lista{
+    background-color: aliceblue;
+    width: 400px; 
+    margin: 0 auto;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    font-size: 35px;
+}
+
+#segunda{
+    background-color: rgba(131, 8, 247, 0.247);
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#terça{
+    background-color: rgba(8, 32, 247, 0.247);
+    max-width: fit-content;
+    margin: 0 auto;
+}
